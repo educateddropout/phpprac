@@ -2,10 +2,10 @@
 
 return [
     'database' => [
-        'name' => 'mytodo',
+        'name' => 'laracast',
         'username' => 'root',
         'password' => '',
-        'connection' => 'mysql:host=127.0.0.1',
+        'connection' => 'mysql:host=localhost',
         'options' => [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING
         ]
